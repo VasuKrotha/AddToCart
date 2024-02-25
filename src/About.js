@@ -12,18 +12,18 @@ export const About = () => {
         </div>
         <div>
           <img
-            alt="image"
             src="https://t3.ftcdn.net/jpg/01/21/12/86/360_F_121128679_pMxkyQRwMRFiZMru0nG0bFwnxj5qt8kY.jpg"
             className="w-[250px] h-[150px] rounded-lg"
+            alt="text"
           />
         </div>
       </div>
       <div className="flex justify-around w-auto items-center  bg-blue-300 py-5 animate__animated animate__fadeInRight">
         <div>
           <img
-            alt="image"
             src="https://t3.ftcdn.net/jpg/04/72/51/52/360_F_472515256_Du3swmADaJcEK5oTY5YBxoQNqzEDnDK7.jpg"
             className="w-[250px] h-[150px] rounded-lg"
+            alt="text"
           />
         </div>
         <div className="w-1/2 font-semibold">
@@ -41,18 +41,18 @@ export const About = () => {
         </div>
         <div>
           <img
-            alt="image"
             src="https://www.infosearchbpo.com/images/customer-services.jpg"
             className="w-[250px] h-[150px] rounded-lg"
+            alt="text"
           />
         </div>
       </div>
       <div className="flex justify-around w-auto items-center py-5 bg-yellow-300 animate__animated animate__fadeInRight">
         <div>
           <img
-            alt="image"
             src="https://img.freepik.com/free-vector/business-data-analysis-hand-holding-megaphone-computer-screen-smart-marketing-digital-payment-flat-vector-illustration-internet-communication-concept-banner-landing-web-page_74855-24348.jpg"
             className="w-[250px] h-[150px] rounded-lg"
+            alt="text"
           />
         </div>
         <div className="w-1/2 font-semibold">

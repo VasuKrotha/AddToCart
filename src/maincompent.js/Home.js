@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Productlist } from "./list";
-import PropTypes from "prop-types";
-import CircularProgress from "@mui/material/CircularProgress";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+
 import { Skeletondata } from "../components";
 export const Home = () => {
   const [products, setProducts] = useState([]);
@@ -37,9 +34,6 @@ export const Home = () => {
     setFilterdata(updatelist);
   };
 
-  function Loading() {
-    return <>Loading</>;
-  }
   return (
     <div>
       <div className="bg-gray-500 text-white flex flex-col md:flex-row items-center justify-between p-8  ">
@@ -56,6 +50,7 @@ export const Home = () => {
           <img
             src="https://t3.ftcdn.net/jpg/04/72/51/52/360_F_472515256_Du3swmADaJcEK5oTY5YBxoQNqzEDnDK7.jpg"
             className="w-[500px] h-[300px] rounded"
+            alt="title"
           />
         </div>
       </div>

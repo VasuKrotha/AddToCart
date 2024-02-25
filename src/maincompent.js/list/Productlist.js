@@ -5,6 +5,7 @@ import StarIcon from "@mui/icons-material/Star";
 import { useSelector, useDispatch } from "react-redux";
 import { addtocart, removefromcart } from "../store/listslice";
 import { useEffect } from "react";
+//Single Cart design
 export const Productlist = ({ product }) => {
   const { id, title, price, image, rating } = product;
   const [Incart, setIncart] = useState(false);

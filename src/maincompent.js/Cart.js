@@ -3,12 +3,13 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { removefromcart } from "./store/listslice";
+
+//Display cart Property
 export const Cart = () => {
   const cartitem = useSelector((state) => state.cart.cartlist);
   const total = useSelector((state) => state.cart.total);
   const dispatch = useDispatch();
-  console.log(cartitem);
-
+  //Display Empty cart Property
   function Emptycart() {
     return (
       <section className="text-xl text-center max-w-4xl mx-auto my-10 py-5  border dark:border-slate-700 rounded text-black">
