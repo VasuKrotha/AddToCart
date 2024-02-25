@@ -12,11 +12,13 @@ export const Header = () => {
       <nav className="bg-gray-900 text-white h-16  max-w-full container">
         <div className="flex  justify-around   items-center">
           {" "}
-          <div className="pr-48 flex flex-col justify-around p-1">
-            <div className="font-bold text-2xl text-yellow-200">CartFilp</div>
-            <div className="text-xs font-semibold pl-2">
-              Explore <span className="text-gray-500">Pluse</span>
-            </div>
+          <div className="pr-48 flex flex-col justify-around p-1 cursor-pointer">
+            <Link to={"/"}>
+              <div className="font-bold text-2xl text-yellow-200">CartFilp</div>
+              <div className="text-xs font-semibold pl-2">
+                Explore <span className="text-gray-500">Pluse</span>
+              </div>
+            </Link>
           </div>
           <div>
             <ul className="hidden md:flex gap-10 justify-center items-center">
