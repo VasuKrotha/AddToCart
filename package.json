@@ -1,7 +1,7 @@
 {
   "name": "e-commerce",
   "version": "0.1.0",
-  "homepage": "https://vasukrotha.github.io/AddTOCart",
+  "homepage": "https://vasukrotha.github.io/AddToCart",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
